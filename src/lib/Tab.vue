@@ -3,4 +3,4 @@
         <slot/>
     </div>
 </template>
-
+<script></script>

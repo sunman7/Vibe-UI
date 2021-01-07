@@ -18,21 +18,21 @@
                         <use xlink:href="#iconVue"></use>
                     </svg>
                     <h3>Vue3</h3>
-                    <p>使用了Vue3</p>
+                    <p></p>
                 </li>
                 <li>
                     <svg class="icon">
                         <use xlink:href="#iconts"></use>
                     </svg>
-                    <h3>Vue3</h3>
-                    <p>使用了Vue3</p>
+                    <h3>TypeScript</h3>
+                    <p></p>
                 </li>
                 <li>
                     <svg class="icon">
                         <use xlink:href="#iconknow"></use>
                     </svg>
-                    <h3>Vue3</h3>
-                    <p>使用了Vue3</p>
+                    <h3>简洁方便</h3>
+                    <p></p>
 
                 </li>
             </ul>
