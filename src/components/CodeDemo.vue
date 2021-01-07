@@ -5,7 +5,8 @@
             <component :is="component"></component>
         </div>
         <div class="demo-actions">
-            <Button @click="codeVisible=!codeVisible">查看代码</Button>
+            <Button v-if="codeVisible" @click="hide">隐藏代码</Button>
+            <Button v-else @click="show" >显示代码</Button>
         </div>
         <div class="demo-code" v-if="codeVisible">
             <pre class="language-html" v-html="html"></pre>
@@ -30,11 +31,18 @@
         },
         setup(props) {
             const codeVisible = ref(false);
+            const show = () => {
+                console.log(codeVisible.value);
+                codeVisible.value = true;
+            };
+            const hide = () => {
+                codeVisible.value = false;
+            };
 
             const html = computed(() => {
                 return Prism.highlight(props.component.__sourceCode, Prism.languages.html);
             });
-            return {Prism, html, codeVisible};
+            return {Prism, html, codeVisible, show, hide};
         }
     };
 </script>

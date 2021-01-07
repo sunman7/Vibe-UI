@@ -3,4 +3,8 @@
         <slot/>
     </div>
 </template>
-<script></script>
+<script>
+    export default {
+        name: "VibeTab"
+    };
+</script>
