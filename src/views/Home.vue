@@ -55,13 +55,17 @@
     $font-color: #007974;
     .features {
         margin: 64px auto;
-        width: 400px;
 
         @media (min-width: 800px) {
             width: 800px;
         }
         @media (min-width: 1200px) {
             width: 1200px;
+            > ul {
+                > li {
+                    width: 33.333%;
+                }
+            }
         }
 
         > ul {
