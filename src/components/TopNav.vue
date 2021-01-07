@@ -45,6 +45,7 @@ S
         justify-content: center;
         align-items: center;
         z-index: 20;
+        border-bottom: 1px solid rgba(grey,10%);
 
         > .logo {
             max-width: 6em;

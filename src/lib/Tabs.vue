@@ -11,8 +11,7 @@
 
         </div>
         <div class="vibe-tabs-content">
-            <component class="vibe-tabs-content-item" v-for="(c,index) in defaults" :is="c" :key="index"
-                       :class="{selected: c.props.title === selected}"/>
+            <component :is="current" :key="current.props.title"/>
         </div>
     </div>
 
@@ -32,13 +31,17 @@
             const selectedItem = ref<HTMLDivElement>(null);
             const indicator = ref<HTMLDivElement>(null);
             const container = ref<HTMLDivElement>(null);
+            const current = computed(() => {
+                return defaults.find(tag => tag.props.title === props.selected);
+            });
+
             onMounted(() => {
                 watchEffect(() => {
                     const {width, left: left2} = selectedItem.value.getBoundingClientRect();
                     indicator.value.style.width = width + "px";
                     const {left: left1} = container.value.getBoundingClientRect();
                     indicator.value.style.left = left2 - left1 + "px";
-                });
+                }, {flush: "post"});
             });
             const defaults = context.slots.default();
             defaults.forEach((tag) => {
@@ -53,7 +56,7 @@
             const select = (title) => {
                 context.emit("update:selected", title);
             };
-            return {defaults, titles, selectedItem, indicator, select, container};
+            return {defaults, titles, selectedItem, indicator, select, container,current};
 
         }
 
@@ -101,13 +104,7 @@
         &-content {
             padding: 8px 0;
 
-            &-item {
-                display: none;
 
-                &.selected {
-                    display: block;
-                }
-            }
         }
     }
 </style>

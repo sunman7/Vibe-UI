@@ -1,5 +1,9 @@
 <template>
-    <button class="vibe-switch" @click="toggle" :class="{'vibe-checked':value}"><span></span></button>
+    <button class="vibe-switch" @click="toggle" :class="{'vibe-checked':value}">
+        <span>
+
+        </span>
+    </button>
 </template>
 
 <script lang="ts">
