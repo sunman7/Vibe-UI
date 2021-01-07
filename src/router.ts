@@ -5,14 +5,11 @@ import SwitchDemo from "./components/SwitchDemo.vue";
 import ButtonDemo from "./components/ButtonDemo.vue";
 import ModalDemo from "./components/ModalDemo.vue";
 import TabsDemo from "./components/TabsDemo.vue";
-import Intro from "./views/Intro.vue";
-import GetStart from "./views/GetStart.vue";
-import Install from "./views/Install.vue";
 import Markdown from "./components/Markdown.vue";
 import { h } from "vue";
 
 // @ts-ignore
-// const md = fileName => h(Markdown, {path: `../markdown/${fileName}.md`, key: fileName});
+const md = fileName => h(Markdown, {path: `../markdown/${fileName}.md`, key: fileName});
 const history = createWebHashHistory();
 export const router = createRouter({
     history: history,
@@ -21,13 +18,13 @@ export const router = createRouter({
         {
             path: "/doc", component: Doc, children: [
                 {
-                    path: "intro", component: Intro
+                    path: "intro", component: md("intro")
                 },
                 {
-                    path: "install", component: Install
+                    path: "install", component: md("install")
                 },
                 {
-                    path: "get-started", component: GetStart
+                    path: "get-started", component: md("get-start")
                 }, {
                     path: "switch", component: SwitchDemo
                 }, {

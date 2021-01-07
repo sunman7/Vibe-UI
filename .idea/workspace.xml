@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/get-start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/GetStart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStart.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
@@ -68,7 +67,7 @@
       <workItem from="1609679033148" duration="6603000" />
       <workItem from="1609730201347" duration="8961000" />
       <workItem from="1609809215592" duration="35445000" />
-      <workItem from="1609987088483" duration="7376000" />
+      <workItem from="1609987088483" duration="7864000" />
     </task>
     <servers />
   </component>
