@@ -1,11 +1,6 @@
 <template>
-    <h1>示例1</h1>
-    <Button @click="showModal"> toggle</Button>
-    <Modal :ok="f1" :cancel="f2" v-model:visible="x" :closeOnClickOverlay="false">
-        <template v-slot:title>
-        </template>
-        <template v-slot:content></template>
-    </Modal>
+    <CodeDemo :component="ModalDemo1"></CodeDemo>
+    <CodeDemo :component="ModalDemo2"></CodeDemo>
 </template>
 
 <script lang="ts">
@@ -13,11 +8,15 @@
     import Button from "../lib/Button.vue";
     import {ref} from "vue";
     import {openModal} from "../lib/openModal";
+    import CodeDemo from "./CodeDemo.vue";
+    import ModalDemo1 from "./demo/Modal1.demo.vue";
+    import ModalDemo2 from "./demo/Modal2.demo.vue";
 
     export default {
         components: {
             Modal,
-            Button
+            Button,
+            CodeDemo
         },
         setup() {
             const x = ref(false);
@@ -28,13 +27,13 @@
             const toggle = () => {
                 x.value = !x.value;
             };
-            const f1 = ()=>{
+            const f1 = () => {
                 console.log("ok");
-            }
-            const f2 = ()=>{
+            };
+            const f2 = () => {
                 console.log("cancel");
-            }
-            return {x, toggle, showModal,f1,f2};
+            };
+            return {x, toggle, showModal, f1, f2, ModalDemo1, ModalDemo2};
         }
     };
 

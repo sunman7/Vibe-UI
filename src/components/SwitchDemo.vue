@@ -1,18 +1,15 @@
 <template>
     <div>
-        <CodeDemo :component="SwitchNormal" />
-        <CodeDemo :component="SwitchDisabled" />
+        <CodeDemo :component="SwitchNormal"/>
+        <CodeDemo :component="SwitchDisabled"/>
     </div>
 </template>
 
 <script lang="ts">
-    import Switch from "../lib/Switch.vue";
-    import {ref} from "vue";
-    import SwitchNormal from "./Switch.normal.vue";
-    import SwitchDisabled from "./Switch.disabled.vue";
-    import Button from "../lib/Button.vue";
+    import SwitchNormal from "./demo/Switch.normal.vue";
+    import SwitchDisabled from "./demo/Switch.disabled.vue";
     import "prismjs";
-    import "prismjs/themes/prism.css"
+    import "prismjs/themes/prism.css";
     import CodeDemo from "./CodeDemo.vue";
 
     const Prism = (window as any).Prism;
@@ -21,14 +18,12 @@
 
     export default {
         components: {
-            Switch,
             SwitchNormal,
             SwitchDisabled,
-            Button
+            CodeDemo,
         },
         setup() {
-            const value = ref(false);
-            return {value, SwitchNormal, SwitchDisabled,Prism,CodeDemo};
+            return {SwitchNormal, SwitchDisabled, Prism};
         }
     };
 </script>
