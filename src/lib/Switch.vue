@@ -1,6 +1,5 @@
 <template>
     <button class="vibe-switch" @click="toggle" :class="{'vibe-checked':value}"><span></span></button>
-    <div>{{value}}</div>
 </template>
 
 <script lang="ts">
