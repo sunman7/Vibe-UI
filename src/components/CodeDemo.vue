@@ -1,34 +1,40 @@
 <template>
-    <div>
-        <CodeDemo :component="SwitchNormal" />
-        <CodeDemo :component="SwitchDisabled" />
+    <div class="demo">
+        <h2>{{component.__sourceCodeTitle}}</h2>
+        <div class="demo-component">
+            <component :is="component"></component>
+        </div>
+        <div class="demo-actions">
+            <Button @click="codeVisible=!codeVisible">查看代码</Button>
+        </div>
+        <div class="demo-code" v-if="codeVisible">
+            <pre class="language-html" v-html="html"></pre>
+        </div>
     </div>
 </template>
 
 <script lang="ts">
-    import Switch from "../lib/Switch.vue";
-    import {ref} from "vue";
-    import SwitchNormal from "./Switch.normal.vue";
-    import SwitchDisabled from "./Switch.disabled.vue";
     import Button from "../lib/Button.vue";
     import "prismjs";
-    import "prismjs/themes/prism.css"
-    import CodeDemo from "./CodeDemo.vue";
+    import "prismjs/themes/prism.css";
+    import {computed, ref} from "vue";
 
     const Prism = (window as any).Prism;
-    console.log(Prism);
-
 
     export default {
         components: {
-            Switch,
-            SwitchNormal,
-            SwitchDisabled,
             Button
         },
-        setup() {
-            const value = ref(false);
-            return {value, SwitchNormal, SwitchDisabled,Prism,CodeDemo};
+        props: {
+            component: Object
+        },
+        setup(props) {
+            const codeVisible = ref(false);
+
+            const html = computed(() => {
+                return Prism.highlight(props.component.__sourceCode, Prism.languages.html);
+            });
+            return {Prism, html, codeVisible};
         }
     };
 </script>
