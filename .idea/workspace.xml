@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mYmjCSozAipnsjQzhXVp68YdlW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vue-project\vibe-ui" />
+      <recent name="D:\vue-project\vibe-ui\src" />
+      <recent name="D:\vue-project\vibe-ui\src\plugins" />
+      <recent name="D:\vue-project\vibe-ui\src\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vue-project\vibe-ui\src\components" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="" />
+      <created>1609679031219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609679031219</updated>
+      <workItem from="1609679033148" duration="6603000" />
+      <workItem from="1609730201347" duration="8961000" />
+      <workItem from="1609809215592" duration="35445000" />
+      <workItem from="1609987088483" duration="6452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609725426092">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="464" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.914@0.0.1463.914" timestamp="1609725426092" />
+    <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609727296771">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.914@0.0.1463.914" timestamp="1609727296771" />
+    <state x="233" y="99" key="SettingsEditor" timestamp="1609831632309">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="233" y="99" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1609831632309" />
+    <state x="388" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609830570171">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="388" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1463.914@0.0.1463.914" timestamp="1609830570171" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-1" timestamp="1609727303032">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="93" y="93" width="1277" height="728" key="dock-window-1/0.0.1463.914@0.0.1463.914" timestamp="1609727303032" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-2" timestamp="1609727303032">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="93" y="93" width="1277" height="728" key="dock-window-2/0.0.1463.914@0.0.1463.914" timestamp="1609727303032" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-3" timestamp="1609727303032">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="93" y="93" width="1277" height="728" key="dock-window-3/0.0.1463.914@0.0.1463.914" timestamp="1609727303032" />
+    <state x="389" y="209" key="run.anything.popup" timestamp="1609830096450">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1609830096450" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1609993729084">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1609993729084" />
+  </component>
+</project>
