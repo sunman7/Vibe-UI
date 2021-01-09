@@ -18,21 +18,21 @@
                         <use xlink:href="#iconVue"></use>
                     </svg>
                     <h3>Vue3</h3>
-                    <p></p>
+                    <p>使用了Vue3 Composition API开发</p>
                 </li>
                 <li>
                     <svg class="icon">
                         <use xlink:href="#iconts"></use>
                     </svg>
                     <h3>TypeScript</h3>
-                    <p></p>
+                    <p>源代码采用TypeScript编写</p>
                 </li>
                 <li>
                     <svg class="icon">
                         <use xlink:href="#iconknow"></use>
                     </svg>
-                    <h3>简洁方便</h3>
-                    <p></p>
+                    <h3>源码简洁</h3>
+                    <p>组件代码简单易懂</p>
 
                 </li>
             </ul>
@@ -50,14 +50,22 @@
     };
 </script>
 <style lang="scss" scoped>
-    $green: #02bcb0;
+    $text: #df7861;
+
+    $font-color: #ff9d72;
+    $button: #fcf8e8;
     $border-radius: 4px;
-    $font-color: #007974;
     .features {
+
         margin: 64px auto;
 
         @media (min-width: 800px) {
             width: 800px;
+            > ul {
+                > li {
+                    width: 50%;
+                }
+            }
         }
         @media (min-width: 1200px) {
             width: 1200px;
@@ -73,10 +81,12 @@
             flex-wrap: wrap;
 
             > li {
+                color: $text;
                 width: 400px;
+                padding-left: 30px;
                 margin: 16px 0;
                 display: grid;
-                justify-content: center;
+                justify-content: start;
                 align-content: space-between;
                 grid-template-areas: "icon title" "icon text";
                 grid-template-columns: 80px auto;
@@ -93,24 +103,25 @@
 
                 > h3 {
                     grid-area: title;
-                    font-size: 28px;
+                    font-size: 32px;
                 }
 
                 > p {
-                    grid-area: text
+                    grid-area: text;
                 }
             }
         }
     }
 
     .topnav-banner {
-        background: linear-gradient(145deg, rgba(227, 255, 253, 1) 0%, rgba(183, 233, 230, 1) 100%);
+        background: linear-gradient(180deg, rgba(252, 248, 232, 1) 0%, rgba(252, 242, 218, 1) 27%, rgba(250, 236, 208, 1) 47%, rgba(240, 195, 142, 1) 100%);
         clip-path: ellipse(80% 60% at 50% 40%);
+        height: 50vh;
     }
 
     .banner {
-        color: $font-color;
-        padding: 100px 0;
+        color: $text;
+        padding: 200px 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,12 +132,12 @@
 
             a {
                 margin: 0 8px;
-                background: $green;
-                color: white;
+                background: $button;
+                color: $text;
                 display: inline-block;
                 $h: 28px;
                 line-height: $h;
-                border-radius: $border-radius;
+                border-radius: $h/2;
                 padding: 8px 24px;
 
                 &:hover {

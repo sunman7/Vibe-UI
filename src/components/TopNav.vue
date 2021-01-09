@@ -12,7 +12,7 @@
         </ol>
 
         <svg v-if="toggleAsideVisible" class="toggleAside" @click="toggleMenu">
-            <use xlink:href="#iconmenu"></use>
+            <use xlink:href="#iconmenu1"></use>
         </svg>
 
     </div>
@@ -36,24 +36,30 @@ S
     };
 </script>
 <style lang="scss" scoped>
-    $font-color: #007974;
+    $text: #df7861;
+    $bg: #fcf8e8;
+    $box-shadow: 0 2px 2px rgba(#333, 0.1);
+
     .topNav {
-        color: $font-color;
+        position: fixed;
+        color: $text;
         display: flex;
         padding: 16px;
-        position: relative;
+        width: 100%;
         justify-content: center;
         align-items: center;
         z-index: 20;
-        border-bottom: 1px solid rgba(grey,10%);
+        border-bottom: 1px solid rgba(grey, 10%);
+        box-shadow: $box-shadow;
+        background: $bg;
 
         > .logo {
             max-width: 6em;
             margin-right: auto;
 
             > svg {
-                width: 32px;
-                height: 32px;
+                width: 48px;
+                height: 48px;
             }
         }
 
@@ -61,6 +67,7 @@ S
             display: flex;
             white-space: nowrap;
             flex-wrap: nowrap;
+            flex-direction: row;
 
             > li {
                 margin: 0 1em;
@@ -75,7 +82,7 @@ S
             transform: translateY(-50%);
             left: 16px;
             display: none;
-            background: fade-out(black, 0.9);
+
         }
 
         @media (max-width: 500px) {
