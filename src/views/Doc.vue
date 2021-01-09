@@ -57,6 +57,10 @@
             flex-grow: 1;
             padding: 60px;
             background: white;
+            @media (max-width: 500px) {
+                padding: 60px 15px;
+            }
+
         }
     }
 
@@ -64,4 +68,5 @@
         height: 100vh;
         overflow: auto;
     }
+
 </style>

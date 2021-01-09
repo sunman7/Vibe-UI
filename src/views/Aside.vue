@@ -10,7 +10,7 @@
                     <router-link to="/doc/install">安装</router-link>
                 </li>
                 <li>
-                    <router-link to="/doc/get-start">开始使用</router-link>
+                    <router-link to="/doc/get-start">起步</router-link>
                 </li>
             </ol>
             <h2>组件</h2>
@@ -83,6 +83,7 @@
                 .router-link-active {
                     display: block;
                     border-right: 4px solid $text;
+                    background: $hover;
 
                     @media (min-width: 500px) {
                         border-right: none;

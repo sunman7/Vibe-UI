@@ -30,7 +30,7 @@ export const router = createRouter({
                     path: "install", component: md(install)
                 },
                 {
-                    path: "get-started", component: md(getStart)
+                    path: "get-start", component: md(getStart)
                 }, {
                     path: "switch", component: SwitchDemo
                 }, {

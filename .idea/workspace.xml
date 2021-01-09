@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/InputDemo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/style.2b89859d.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/style.2b89859d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/get-start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-start.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <workItem from="1610071936565" duration="2736000" />
       <workItem from="1610087123404" duration="28000" />
       <workItem from="1610088203194" duration="3199000" />
-      <workItem from="1610176219261" duration="7394000" />
+      <workItem from="1610176219261" duration="11526000" />
     </task>
     <servers />
   </component>
@@ -117,9 +116,9 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610017884698" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610183606726">
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610187786626">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610183606726" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610187786626" />
   </component>
 </project>
