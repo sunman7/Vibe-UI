@@ -16,9 +16,11 @@
 <style lang="scss">
     $text: #df7861;
     $blockquote: #fcf8e8;
-    .markdown-body {
-        @media (min-width: 800px) {
-            font-size: 32px;
+
+    article.markdown-body {
+        font-size:  24px;
+        @media (max-width: 500px) {
+            font-size: 16px;
         }
 
         > p {

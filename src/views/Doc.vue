@@ -26,6 +26,8 @@
     };
 </script>
 <style lang="scss" scoped>
+
+
     $bg: #fcf8e8;
     .layout {
         display: flex;
