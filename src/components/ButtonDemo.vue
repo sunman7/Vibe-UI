@@ -1,8 +1,13 @@
 <template>
+    <h2>Text</h2>
     <CodeDemo :component="Button1Demo"/>
+    <h2>Size</h2>
     <CodeDemo :component="Button2Demo"/>
+    <h2>Level</h2>
     <CodeDemo :component="Button3Demo"/>
+    <h2>Disabled</h2>
     <CodeDemo :component="Button4Demo"/>
+    <h2>Loading</h2>
     <CodeDemo :component="Button5Demo"/>
 </template>
 
@@ -26,5 +31,4 @@
 </script>
 
 <style lang="scss" scoped>
-
 </style>

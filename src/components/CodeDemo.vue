@@ -52,6 +52,7 @@
     .demo {
         border: 1px solid $border-color;
         margin: 16px 0 32px;
+        max-width: 500px;
 
         > h2 {
             font-size: 20px;
@@ -60,7 +61,7 @@
         }
 
         &-component {
-            padding: 16px;
+            padding: 20px 16px;
         }
 
         &-actions {
@@ -69,7 +70,7 @@
         }
 
         &-code {
-            padding: 8px 16px;
+            /*padding: 8px 16px;*/
             border-top: 1px dashed $border-color;
 
             > pre {

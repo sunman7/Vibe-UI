@@ -3,9 +3,11 @@
 </demo>
 <template>
     <div>
-        <Button>你好</Button>
-        <Button theme="link">你好</Button>
-        <Button theme="text">你好</Button>
+
+        <Button theme="text">Normal</Button>
+        <Button theme="text" level="main">Main</Button>
+        <Button theme="text" level="danger">Danger</Button>
+        <Button theme="text" level="success">Success</Button>
     </div>
 </template>
 

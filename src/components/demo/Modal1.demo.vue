@@ -3,11 +3,10 @@
 </demo>
 <template>
     <div>
-        <Button @click="toggle">打开对话框</Button>
+        <Button level="main" @click="toggle">打开对话框</Button>
         <Modal v-model:visible="x" :closeOnClickOverlay="false" :ok="f1" :cancel="f2">
             <template v-slot:content>
-                <strong>hi</strong>
-                <div>hi2</div>
+                <p>就嗷is级都我就删掉就阿阿斯顿奇偶暗示的</p>
             </template>
             <template v-slot:title>
                 <strong>加粗的标题</strong>

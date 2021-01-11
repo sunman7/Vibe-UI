@@ -3,9 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CodeDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodeDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button3.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button5.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button5.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Modal1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Modal1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +48,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/demo/button" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
+      <recent name="D:\vue-project\vibe-ui\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\vue-project\vibe-ui\src\components\demo" />
       <recent name="D:\vue-project\vibe-ui\src\components" />
       <recent name="D:\vue-project\vibe-ui" />
       <recent name="D:\vue-project\vibe-ui\src" />
       <recent name="D:\vue-project\vibe-ui\src\plugins" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\vue-project\vibe-ui\src\components" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,7 +83,8 @@
       <workItem from="1610071936565" duration="2736000" />
       <workItem from="1610087123404" duration="28000" />
       <workItem from="1610088203194" duration="3199000" />
-      <workItem from="1610176219261" duration="12889000" />
+      <workItem from="1610176219261" duration="14268000" />
+      <workItem from="1610248953791" duration="10749000" />
     </task>
     <servers />
   </component>
@@ -89,6 +104,22 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1610087148969" />
+    <state width="1442" height="219" key="GridCell.Tab.0.bottom" timestamp="1610353004581">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state width="1442" height="219" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1610353004581" />
+    <state width="1442" height="219" key="GridCell.Tab.0.center" timestamp="1610353004581">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state width="1442" height="219" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1610353004581" />
+    <state width="1442" height="219" key="GridCell.Tab.0.left" timestamp="1610353004581">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state width="1442" height="219" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1610353004581" />
+    <state width="1442" height="219" key="GridCell.Tab.0.right" timestamp="1610353004581">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state width="1442" height="219" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1610353004581" />
     <state x="233" y="99" key="SettingsEditor" timestamp="1610180710240">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -97,25 +128,33 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="388" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1463.914@0.0.1463.914" timestamp="1609830570171" />
-    <state x="93" y="93" width="1277" height="728" key="dock-window-1" timestamp="1609727303032">
+    <state x="93" y="93" width="1277" height="728" key="dock-window-1" timestamp="1610354294871">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="93" y="93" width="1277" height="728" key="dock-window-1/0.0.1463.914@0.0.1463.914" timestamp="1609727303032" />
-    <state x="93" y="93" width="1277" height="728" key="dock-window-2" timestamp="1609727303032">
+    <state x="93" y="93" width="1277" height="728" key="dock-window-1/0.0.1463.914@0.0.1463.914" timestamp="1610354294871" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-2" timestamp="1610354294871">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="93" y="93" width="1277" height="728" key="dock-window-2/0.0.1463.914@0.0.1463.914" timestamp="1609727303032" />
-    <state x="93" y="93" width="1277" height="728" key="dock-window-3" timestamp="1609727303032">
+    <state x="93" y="93" width="1277" height="728" key="dock-window-2/0.0.1463.914@0.0.1463.914" timestamp="1610354294871" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-3" timestamp="1610354294871">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="93" y="93" width="1277" height="728" key="dock-window-3/0.0.1463.914@0.0.1463.914" timestamp="1609727303032" />
-    <state x="389" y="209" key="run.anything.popup" timestamp="1610017884698">
+    <state x="93" y="93" width="1277" height="728" key="dock-window-3/0.0.1463.914@0.0.1463.914" timestamp="1610354294871" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-4" timestamp="1610354294871">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610017884698" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610189150733">
+    <state x="93" y="93" width="1277" height="728" key="dock-window-4/0.0.1463.914@0.0.1463.914" timestamp="1610354294871" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-5" timestamp="1610354294872">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610189150733" />
+    <state x="93" y="93" width="1277" height="728" key="dock-window-5/0.0.1463.914@0.0.1463.914" timestamp="1610354294872" />
+    <state x="389" y="209" key="run.anything.popup" timestamp="1610358702477">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610358702477" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610359078617">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610359078617" />
   </component>
 </project>

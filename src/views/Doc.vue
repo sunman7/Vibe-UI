@@ -57,10 +57,10 @@
 
         > main {
             flex-grow: 1;
-            padding: 60px;
+            padding: 60px 50px;
             background: white;
             @media (max-width: 500px) {
-                padding: 60px 15px;
+                padding: 60px 10px;
             }
 
         }

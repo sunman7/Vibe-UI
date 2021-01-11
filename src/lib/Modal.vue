@@ -11,8 +11,8 @@
                         <slot name="content"/>
                     </main>
                     <footer>
-                        <Button level="main" @click="ok">确定</Button>
-                        <Button @click="cancel">取消</Button>
+                        <Button level="main" theme="text" @click="ok">确定</Button>
+                        <Button theme="text" level="main" @click="cancel">取消</Button>
                     </footer>
                 </div>
             </div>
@@ -94,8 +94,7 @@
         }
 
         > header {
-            padding: 12px 16px;
-            border-bottom: 1px solid $border-color;
+            padding: 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -103,19 +102,22 @@
         }
 
         > main {
-            padding: 12px 16px;
+            padding: 8px 20px;
+            > .content{
+
+            }
         }
 
         > footer {
-            border-top: 1px solid $border-color;
-            padding: 12px 16px;
+            padding: 12px 0;
             text-align: right;
+
         }
 
         &-close {
             position: relative;
             display: inline-block;
-            width: 16px;
+            width: 12px;
             height: 16px;
             cursor: pointer;
 

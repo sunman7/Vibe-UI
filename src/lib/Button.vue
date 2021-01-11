@@ -50,13 +50,15 @@
     $h: 32px;
     $border-color: #494949;
     $color: #333;
-    $blue: #40a9ff;
+    $blue: rgb(24, 103, 192);
+    $green: rgb(76, 175, 80);
+    $disabled: rgb(224, 224, 224);
     $radius: 4px;
     $red: red;
     $grey: grey;
     .vibe-button {
         height: $h;
-        padding: 0 12px !important;
+        padding: 2px 20px !important;
         cursor: pointer;
         display: inline-flex;
         justify-content: center;
@@ -64,13 +66,11 @@
         white-space: nowrap;
         background: white;
         color: $color;
+        font-weight: 700;
         border: 1px solid $border-color;
         border-radius: $radius;
         box-shadow: 0 1px 0 fade_out(black, 0.95);
-
-        & + & {
-            margin-left: 8px;
-        }
+        margin: 10px !important;
 
         &:hover, &:focus {
             color: $blue;
@@ -143,6 +143,18 @@
                     border-color: darken($red, 10%);
                 }
             }
+
+            &.vibe-level-success {
+                background: $green;
+                border-color: $green;
+                color: white;
+
+                &:hover,
+                &:focus {
+                    background: darken($green, 10%);
+                    border-color: darken($green, 10%);
+                }
+            }
         }
 
         &.vibe-theme-link {
@@ -174,16 +186,23 @@
                     color: darken($red, 10%);
                 }
             }
+            &.vibe-level-success {
+                color: $green;
+
+                &:hover,
+                &:focus {
+                    color: darken($green, 10%);
+                }
+            }
         }
 
         &.vibe-theme-button {
             &[disabled] {
                 cursor: not-allowed;
-                color: $grey;
+                color: rgb(166,166,166);
+                background: $disabled;
+                border:none;
 
-                &:hover {
-                    border-color: $grey;
-                }
             }
         }
 
@@ -191,6 +210,7 @@
             &[disabled] {
                 cursor: not-allowed;
                 color: $grey;
+                text-decoration: line-through;
             }
         }
 

@@ -66,7 +66,7 @@
 </script>
 
 <style lang="scss">
-    $blue: #40a9ff;
+    $blue: rgb(24, 103, 192);
     $color: #333;
     $border-color: #d9d9d9;
     .vibe-tabs {
@@ -80,7 +80,9 @@
                 padding: 8px 0;
                 margin: 0 16px;
                 cursor: pointer;
-
+                &:hover,&:focus{
+                    background: darken(white, 5%);
+                }
                 &:first-child {
                     margin-left: 0;
                 }

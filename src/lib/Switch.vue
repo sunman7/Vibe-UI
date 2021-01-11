@@ -26,6 +26,7 @@
 <style lang="scss">
     $h: 26px;
     $h2: $h - 4px;
+    $blue: rgb(24, 103, 192);
     .vibe-switch {
         height: $h;
         width: 2* $h;
@@ -46,7 +47,7 @@
         }
 
         &.vibe-checked {
-            background: rgb(220, 87, 18);
+            background: $blue;
 
             > span {
                 left: calc(100% - #{$h2} - 2px);
