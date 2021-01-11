@@ -1,6 +1,5 @@
 <template>
     <CodeDemo :component="ModalDemo1"></CodeDemo>
-    <CodeDemo :component="ModalDemo2"></CodeDemo>
 </template>
 
 <script lang="ts">

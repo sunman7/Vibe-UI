@@ -52,12 +52,12 @@
                 }
             };
             const ok = () => {
-                if (props.ok?.() !== false) {
+                if (props.ok&&props.ok() !== false) {
                     close();
                 }
             };
             const cancel = () => {
-                if (props.cancel?.() !== false) {
+                if (props.cancel&& props.cancel() !== false) {
                     close();
                 }
             };
@@ -103,9 +103,7 @@
 
         > main {
             padding: 8px 20px;
-            > .content{
 
-            }
         }
 
         > footer {

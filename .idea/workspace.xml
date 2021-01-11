@@ -4,21 +4,9 @@
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CodeDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodeDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button3.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/Button5.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Button5.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/Modal1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/Modal1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Modal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +72,7 @@
       <workItem from="1610087123404" duration="28000" />
       <workItem from="1610088203194" duration="3199000" />
       <workItem from="1610176219261" duration="14268000" />
-      <workItem from="1610248953791" duration="10749000" />
+      <workItem from="1610248953791" duration="13812000" />
     </task>
     <servers />
   </component>
@@ -152,9 +140,9 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610358702477" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610359078617">
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610366287564">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610359078617" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610366287564" />
   </component>
 </project>

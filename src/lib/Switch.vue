@@ -1,7 +1,6 @@
 <template>
     <button class="vibe-switch" @click="toggle" :class="{'vibe-checked':value}">
         <span>
-
         </span>
     </button>
 </template>
@@ -24,33 +23,35 @@
 </script>
 
 <style lang="scss">
-    $h: 26px;
-    $h2: $h - 4px;
+    $h: 16px;
+    $h2: $h + 8px;
     $blue: rgb(24, 103, 192);
     .vibe-switch {
         height: $h;
-        width: 2* $h;
+        width: $h *3;
         border: none;
-        background: grey;
+        background: rgba(grey,0.7);
         border-radius: $h/2;
         position: relative;
 
         > span {
             position: absolute;
-            top: 2px;
-            left: 2px;
+            top: -$h2/6;
+            left: 0;
             height: $h2;
             width: $h2;
             background: white;
             border-radius: $h2/2;
             transition: left 300ms;
+            box-shadow: 0 1px 0 fade_out(black, 0.95);
         }
 
         &.vibe-checked {
-            background: $blue;
+            background: rgba($blue, 0.7);
 
             > span {
                 left: calc(100% - #{$h2} - 2px);
+                background: $blue;
 
             }
         }
