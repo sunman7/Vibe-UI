@@ -6,8 +6,8 @@
 </template>
 
 <script lang="ts">
-    import SwitchNormal from "./demo/Switch.normal.vue";
-    import SwitchDisabled from "./demo/Switch.disabled.vue";
+    import SwitchNormal from "./demo/switch/Switch.normal.vue";
+    import SwitchDisabled from "./demo/switch/Switch.disabled.vue";
     import "prismjs";
     import "prismjs/themes/prism.css";
     import CodeDemo from "./CodeDemo.vue";

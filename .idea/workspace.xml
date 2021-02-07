@@ -3,10 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index.3173142d.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/index.3173142d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ModalDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button3.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button4.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button4.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Button5.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button5.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Modal1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/modal/Modal1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Modal2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/modal/Modal2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Switch.disabled.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/switch/Switch.disabled.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Switch.normal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/switch/Switch.normal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/Tabs1.Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/tabs/Tabs1.Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/get-start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +66,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/demo/button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\tabs" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\switch" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\Modal" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
       <recent name="D:\vue-project\vibe-ui\src\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\vue-project\vibe-ui\src\components\demo" />
-      <recent name="D:\vue-project\vibe-ui\src\components" />
-      <recent name="D:\vue-project\vibe-ui" />
-      <recent name="D:\vue-project\vibe-ui\src" />
-      <recent name="D:\vue-project\vibe-ui\src\plugins" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -72,7 +102,10 @@
       <workItem from="1610087123404" duration="28000" />
       <workItem from="1610088203194" duration="3199000" />
       <workItem from="1610176219261" duration="14268000" />
-      <workItem from="1610248953791" duration="13812000" />
+      <workItem from="1610248953791" duration="16872000" />
+      <workItem from="1610418146020" duration="5555000" />
+      <workItem from="1610698267836" duration="193000" />
+      <workItem from="1612684097830" duration="10554000" />
     </task>
     <servers />
   </component>
@@ -88,10 +121,11 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.914@0.0.1463.914" timestamp="1609727296771" />
-    <state x="512" y="212" key="FileChooserDialogImpl" timestamp="1610087148969">
+    <state x="512" y="212" key="FileChooserDialogImpl" timestamp="1612684298770">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1610087148969" />
+    <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612684298770" />
+    <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1610698459859" />
     <state width="1442" height="219" key="GridCell.Tab.0.bottom" timestamp="1610353004581">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -112,6 +146,10 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="233" y="99" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1610180710240" />
+    <state x="93" y="93" width="1277" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610419318065">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="93" y="93" width="1277" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1463.914@0.0.1463.914" timestamp="1610419318065" />
     <state x="388" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609830570171">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -136,13 +174,18 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="93" y="93" width="1277" height="728" key="dock-window-5/0.0.1463.914@0.0.1463.914" timestamp="1610354294872" />
+    <state x="400" y="172" width="662" height="570" key="find.popup" timestamp="1612706596209">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="400" y="172" width="662" height="570" key="find.popup/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612706596209" />
     <state x="389" y="209" key="run.anything.popup" timestamp="1610358702477">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610358702477" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1610366287564">
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1612710887273">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610366287564" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612710887273" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610428304373" />
   </component>
 </project>

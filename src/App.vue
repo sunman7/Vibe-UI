@@ -21,8 +21,6 @@
     };
 </script>
 <style lang="scss">
-    body{
-        overflow: hidden;
-    }
+
 </style>
 

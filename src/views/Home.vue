@@ -3,11 +3,12 @@
         <div class="topnav-banner">
             <TopNav/>
             <div class="banner">
-                <h1>VibeUI</h1>
-                <h2>Vibe</h2>
+                <h1>VIBE UI</h1>
+                <h2>VIBE UI是一个纯手工打造的Vue UI组件库。</h2>
                 <p class="actions">
-                    <a href="https://github.com">GitHub</a>
-                    <router-link to="/doc">开始</router-link>
+
+                    <router-link to="/doc" class="start">开始使用</router-link>
+                    <a class="github" href="https://github.com">GITHUB</a>
                 </p>
             </div>
         </div>
@@ -55,6 +56,7 @@
     $font-color: #ff9d72;
     $button: #fcf8e8;
     $border-radius: 4px;
+    $github-bg: rgb(33, 33, 33);
     .features {
 
         margin: 64px auto;
@@ -62,6 +64,7 @@
         @media (min-width: 800px) {
             width: 800px;
             > ul {
+
                 > li {
                     width: 50%;
                 }
@@ -79,7 +82,7 @@
         > ul {
             display: flex;
             flex-wrap: wrap;
-
+            margin-bottom: 200px;
             > li {
                 color: $text;
                 width: 400px;
@@ -91,7 +94,7 @@
                 grid-template-areas: "icon title" "icon text";
                 grid-template-columns: 80px auto;
                 grid-template-rows: 1fr auto;
-                @media (max-width: 400px) {
+                @media (max-width: 500px) {
                     justify-content: start;
                 }
 
@@ -103,7 +106,7 @@
 
                 > h3 {
                     grid-area: title;
-                    font-size: 32px;
+                    font-size: 28px;
                 }
 
                 > p {
@@ -117,6 +120,11 @@
         background: linear-gradient(180deg, rgba(252, 248, 232, 1) 0%, rgba(252, 242, 218, 1) 27%, rgba(250, 236, 208, 1) 47%, rgba(240, 195, 142, 1) 100%);
         clip-path: ellipse(80% 60% at 50% 40%);
         height: 50vh;
+        @media(max-width:400px) {
+            font-size: 12px;
+            height: 55vh;
+        }
+        
     }
 
     .banner {
@@ -126,19 +134,27 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
         > .actions {
             padding: 8px 0;
+            > .github {
+                background: $github-bg;
+            }
+
+            > .start {
+                background: $text;
+            }
 
             a {
-                margin: 0 8px;
-                background: $button;
-                color: $text;
+                @media(max-width:400px){
+                    padding: 4px 24px;
+                }
+                margin: 20px 8px;
+                color: white;
                 display: inline-block;
-                $h: 28px;
+                $h: 40px;
                 line-height: $h;
-                border-radius: $h/2;
-                padding: 8px 24px;
+                border-radius: 4px;
+                padding: 8px 48px;
 
                 &:hover {
                     text-decoration: none;

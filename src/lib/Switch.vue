@@ -1,5 +1,5 @@
 <template>
-    <button class="vibe-switch" @click="toggle" :class="{'vibe-checked':value}">
+    <button class="vibe-switch" @click="toggle" :class="{ 'vibe-checked' : value }">
         <span>
         </span>
     </button>
@@ -12,6 +12,7 @@
             value: Boolean
         },
         setup(props, context) {
+
             const toggle = () => {
                 console.log(props.value);
                 context.emit("update:value", !props.value);
@@ -30,20 +31,20 @@
         height: $h;
         width: $h *3;
         border: none;
-        background: rgba(grey,0.7);
+        background: rgba(grey, 0.7);
         border-radius: $h/2;
         position: relative;
 
         > span {
             position: absolute;
             top: -$h2/6;
-            left: 0;
+            left: 2px;
             height: $h2;
             width: $h2;
             background: white;
             border-radius: $h2/2;
             transition: left 300ms;
-            box-shadow: 0 1px 0 fade_out(black, 0.95);
+            box-shadow: 0px 3px 10px -1px rgba(0,0,0,.5);
         }
 
         &.vibe-checked {

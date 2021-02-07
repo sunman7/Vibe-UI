@@ -13,11 +13,11 @@
 
 <script lang="ts">
     import CodeDemo from "./CodeDemo.vue";
-    import Button1Demo from "./demo/Button1.demo.vue";
-    import Button2Demo from "./demo/Button2.demo.vue";
-    import Button3Demo from "./demo/Button3.demo.vue";
-    import Button4Demo from "./demo/Button4.demo.vue";
-    import Button5Demo from "./demo/Button5.demo.vue";
+    import Button1Demo from "./demo/button/Button1.demo.vue";
+    import Button2Demo from "./demo/button/Button2.demo.vue";
+    import Button3Demo from "./demo/button/Button3.demo.vue";
+    import Button4Demo from "./demo/button/Button4.demo.vue";
+    import Button5Demo from "./demo/button/Button5.demo.vue";
 
 
     export default {

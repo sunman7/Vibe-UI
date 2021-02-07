@@ -1,36 +1,119 @@
 <template>
-    <div class="wrapper">
-        <input class="input" type="text">
+    <div class="wrapper" :class="{error,success}">
+        <input :value="value" class="input" type="text" :disabled="disabled" @change="$emit('change',$event)"
+               @focus="$emit('change',$event)" :placeholder="placeholder" :readonly="readonly">
+        <template v-if="error">
+            <span v-if="error" class="error-message">
+                 <svg class="icon" class="icon-error">
+                <use xlink:href="#iconerror"></use>
+            </svg>
+                {{error}}
+            </span>
+        </template>
+        <template v-else-if="success">
+            <span class="success-message">
+                 <svg class="icon" class="icon-success">
+                <use xlink:href="#iconerror"></use>
+            </svg>
+                {{success}}
+            </span>
+        </template>
     </div>
 </template>
 
 <script lang="ts">
-    export default {};
+    export default {
+        props: {
+            value: {
+                type: String
+            },
+            disabled: {
+                type: Boolean,
+                default: false
+            },
+            readonly: {
+                type: Boolean,
+                default: false
+            },
+            error: {
+                type: String
+            },
+            success: {
+                type: String
+            },
+            placeholder: {
+                type: String
+            }
+        },
+        setup() {
+
+        }
+    };
 </script>
 
 <style lang="scss">
-    $height: 32px;
-
-
+    $height: 40px;
     $border-color: #999;
-    .wrapper {
-        > .input {
-            outline-style: none;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            padding: 13px 14px;
-            width: 620px;
-            font-size: 14px;
-            font-weight: 700;
+    $box-shadow: #999;
+    $disabled: rgb(224, 224, 224);
+    $error-color: #FF5252;
+    $success-color: #4CAF50;
 
-            &:focus {
-                border-color: #66afe9;
-                outline: 0;
-                -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-                box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    .wrapper {
+        font-size: 18px;
+        display: inline-flex;
+        flex-direction: column;
+        margin: 10px;
+
+        &.error {
+            > input {
+                border-color: $error-color;
+                color:$error-color;
+            }
+        }
+        &.success{
+            > input{
+                border-color: $success-color;
+                color: $success-color;
             }
         }
 
+        > .input {
+            height: $height;
+            border: 2px solid $border-color;
+            padding: 0 8px;
+            border-radius: 4px;
+            font-size: inherit;
+
+
+            &:hover, &:focus {
+                outline: 0;
+                box-shadow: inset 0 1px 3px $box-shadow;
+            }
+
+            &[disabled], &[readonly] {
+                cursor: not-allowed;
+                color: #ccc;
+                border-color: #ccc;
+            }
+
+        }
+
+        .error-message {
+            color: $error-color;
+        }
+
+        .icon-error {
+            fill: $error-color;
+        }
+
+        .success-message {
+            color: $success-color;
+        }
+
+        .icon-success {
+            fill: $success-color;
+        }
     }
 
 </style>

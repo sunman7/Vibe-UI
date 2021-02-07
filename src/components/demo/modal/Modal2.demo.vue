@@ -8,14 +8,14 @@
 </template>
 
 <script lang="ts">
-    import Button from "../../lib/Button.vue";
+    import Button from "../../../lib/Button.vue";
     import {
         ref,
         h
     } from "vue";
     import {
         openModal
-    } from "../../lib/openModal";
+    } from "../../../lib/openModal";
 
     export default {
         components: {

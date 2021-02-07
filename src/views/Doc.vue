@@ -2,7 +2,7 @@
     <div class="layout">
         <TopNav :toggleAsideVisible="true" class="nav"/>
         <div class="content">
-            <Aside></Aside>
+            <Aside class="aside"></Aside>
             <main>
                 <router-view/>
             </main>
@@ -34,10 +34,6 @@
         flex-direction: column;
         height: 100vh;
 
-        > .nav {
-            flex-shrink: 0;
-        }
-
         > .content {
             flex-grow: 1;
             padding-top: 60px;
@@ -50,7 +46,6 @@
 
     .content {
         display: flex;
-
         > aside {
             flex-shrink: 0;
         }

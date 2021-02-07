@@ -1,12 +1,12 @@
 <demo>
-    常规用法
+    disabled用法
 </demo>
 <template>
-    <Switch v-model:value="value"/>
+    <Switch v-model:value="value" disabled/>
 </template>
 
 <script lang="ts">
-    import Switch from "../../lib/Switch.vue";
+    import Switch from "../../../lib/Switch.vue";
     import {ref} from "vue";
 
     export default {

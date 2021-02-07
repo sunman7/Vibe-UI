@@ -28,7 +28,7 @@
                     <router-link to="/doc/tabs">Tabs 组件</router-link>
                 </li>
                 <li>
-                    <router-link to="/doc/tabs">Input 组件</router-link>
+                    <router-link to="/doc/input">Input 组件</router-link>
                 </li>
 
             </ol>
@@ -52,7 +52,7 @@
     $hover: #fcf8e8;
     aside {
         background: $bg;
-        box-shadow: 2px 0 2px rgba(#333, 0.1);
+        box-shadow: 5px 0 5px rgb(51 51 51 / 10%);
         width: 300px;
         padding: 20px 10px;
         position: fixed;
@@ -60,8 +60,7 @@
         left: 0;
         padding-top: 90px;
         height: 100%;
-        z-index: 10;
-
+        z-index: 1;
         > h2 {
             margin-bottom: 4px;
             padding: 6px 16px;

@@ -1,5 +1,9 @@
 <template>
-    <Input />
+   <Input placeholder="输入内容" />
+   <Input disabled placeholder="disabled"/>
+   <Input readonly placeholder="readonly" />
+   <Input error="error" />
+   <Input success="success" />
 </template>
 
 <script lang="ts">
@@ -8,6 +12,9 @@
     export default {
         components: {
             Input
+        },
+        setup(){
+
         }
     };
 </script>

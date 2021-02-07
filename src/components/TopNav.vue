@@ -38,9 +38,11 @@ S
 <style lang="scss" scoped>
     $text: #df7861;
     $bg: #fcf8e8;
-    $box-shadow: 0 2px 2px rgba(#333, 0.1);
+    $box-shadow: 0 5px 5px rgb(51 51 51 / 10%);
 
     .topNav {
+        background: #fff;
+        z-index:10;
         position: fixed;
         color: $text;
         display: flex;
@@ -48,11 +50,8 @@ S
         width: 100%;
         justify-content: center;
         align-items: center;
-        z-index: 20;
         border-bottom: 1px solid rgba(grey, 10%);
         box-shadow: $box-shadow;
-        background: $bg;
-
         > .logo {
             max-width: 6em;
             margin-right: auto;

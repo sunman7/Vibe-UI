@@ -6,24 +6,24 @@
         <Button level="main" @click="toggle">打开对话框</Button>
         <Modal v-model:visible="x" :closeOnClickOverlay="false" :ok="f1" :cancel="f2">
             <template v-slot:content>
-                <p>就嗷is级都我就删掉就阿阿斯顿奇偶暗示的</p>
+                <p>内容</p>
             </template>
             <template v-slot:title>
-                <strong>加粗的标题</strong>
+                <strong>标题</strong>
             </template>
         </Modal>
     </div>
 </template>
 
 <script lang="ts">
-    import Modal from "../../lib/Modal.vue";
-    import Button from "../../lib/Button.vue";
+    import Modal from "../../../lib/Modal.vue";
+    import Button from "../../../lib/Button.vue";
     import {
         ref
     } from "vue";
     import {
         openModal
-    } from "../../lib/openModal";
+    } from "../../../lib/openModal";
 
     export default {
         components: {

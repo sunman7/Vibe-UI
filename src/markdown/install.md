@@ -3,10 +3,13 @@
 打开终端运行下列命令：
 
 ```
-npm install vibe-ui //使用npm
-
-yarn add vibe-ui //使用yarn
+npm install vibe-ui
 ```
 
+或
 
-next：[起步](#/doc/get-start)
+```
+yarn add vibe-ui
+```
+
+下一节：[开始使用](#/doc/get-started)

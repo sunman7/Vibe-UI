@@ -5,7 +5,7 @@
 <script lang="ts">
 
     import CodeDemo from "./CodeDemo.vue";
-    import TabsDemo1 from "./demo/Tabs1.Demo.vue";
+    import TabsDemo1 from "./demo/tabs/Tabs1.Demo.vue";
 
 
     export default {

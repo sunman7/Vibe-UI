@@ -8,8 +8,8 @@
     import {ref} from "vue";
     import {openModal} from "../lib/openModal";
     import CodeDemo from "./CodeDemo.vue";
-    import ModalDemo1 from "./demo/Modal1.demo.vue";
-    import ModalDemo2 from "./demo/Modal2.demo.vue";
+    import ModalDemo1 from "./demo/modal/Modal1.demo.vue";
+    import ModalDemo2 from "./demo/modal/Modal2.demo.vue";
 
     export default {
         components: {
