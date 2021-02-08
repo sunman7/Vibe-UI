@@ -4,9 +4,9 @@
 <template>
     <div>
         <div>
-            <Button size="big">大大大</Button>
-            <Button>普普通</Button>
-            <Button size="small">小小小</Button>
+            <Button size="big">big</Button>
+            <Button>normal</Button>
+            <Button size="small">small</Button>
         </div>
     </div>
 </template>

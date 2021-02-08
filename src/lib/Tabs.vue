@@ -4,7 +4,7 @@
             <div class="vibe-tabs-nav-item" v-for="(t,index) in titles" @click="select(t)"
                  :ref="el =>{if(t === selected) selectedItem =el}"
                  :key="index"
-                 :class="{selected: t === selected}">
+                 :class="[t === selected? selected : ''] + [t === '' ? 'disabled' : '']">
                 {{t}}
             </div>
             <div class="vibe-tabs-nav-indicator" ref="indicator"></div>
@@ -25,7 +25,7 @@
         props: {
             selected: {
                 type: String,
-            }
+            },
         },
         setup(props, context) {
             const selectedItem = ref<HTMLDivElement>(null);
@@ -56,7 +56,7 @@
             const select = (title) => {
                 context.emit("update:selected", title);
             };
-            return {defaults, titles, selectedItem, indicator, select, container,current};
+            return {defaults, titles, selectedItem, indicator, select, container, current};
 
         }
 
@@ -80,9 +80,11 @@
                 padding: 8px 0;
                 margin: 0 16px;
                 cursor: pointer;
-                &:hover,&:focus{
+
+                &:hover, &:focus {
                     background: darken(white, 5%);
                 }
+
                 &:first-child {
                     margin-left: 0;
                 }

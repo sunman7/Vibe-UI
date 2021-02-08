@@ -2,9 +2,10 @@
     常规使用
 </demo>
 <template>
-    <Tabs v-model:selected="x">
-        <Tab title="Tabs1">内容1</Tab>
-        <Tab title="Tabs2">内容2</Tab>
+    <Tabs v-model:selected="selectedItem">
+        <Tab title="Tabs1">one</Tab>
+        <Tab title="Tabs2">two</Tab>
+        <Tab title="Tabs3" disabled>three</Tab>
     </Tabs>
 </template>
 
@@ -21,9 +22,9 @@
             Tab
         },
         setup() {
-            const x = ref("Tabs1");
+            const selectedItem = ref("Tabs1");
             return {
-                x
+                selectedItem
             };
         }
     };

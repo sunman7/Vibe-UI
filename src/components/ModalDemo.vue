@@ -1,5 +1,8 @@
 <template>
     <CodeDemo :component="ModalDemo1"></CodeDemo>
+    <br>
+    <h1>close</h1>
+    <CodeDemo :component="ModalDemo2"></CodeDemo>
 </template>
 
 <script lang="ts">

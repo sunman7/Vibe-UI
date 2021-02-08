@@ -4,13 +4,14 @@
 <template>
     <div>
         <Button level="main" @click="toggle">打开对话框</Button>
-        <Modal v-model:visible="x" :closeOnClickOverlay="false" :ok="f1" :cancel="f2">
-            <template v-slot:content>
-                <p>内容</p>
-            </template>
+        <Modal v-model:visible="x" :close-on-click-over-lay="false" :ok="f1" :cancel="f2">
             <template v-slot:title>
                 <strong>标题</strong>
             </template>
+            <template v-slot:content>
+                <p>内容</p>
+            </template>
+
         </Modal>
     </div>
 </template>
@@ -36,7 +37,7 @@
                 x.value = !x.value;
             };
             const f1 = () => {
-                return false;
+                return true;
             };
             const f2 = () => {
             };

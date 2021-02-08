@@ -3,18 +3,12 @@
         <input :value="value" class="input" type="text" :disabled="disabled" @change="$emit('change',$event)"
                @focus="$emit('change',$event)" :placeholder="placeholder" :readonly="readonly">
         <template v-if="error">
-            <span v-if="error" class="error-message">
-                 <svg class="icon" class="icon-error">
-                <use xlink:href="#iconerror"></use>
-            </svg>
+            <span class="error-message">
                 {{error}}
             </span>
         </template>
         <template v-else-if="success">
             <span class="success-message">
-                 <svg class="icon" class="icon-success">
-                <use xlink:href="#iconerror"></use>
-            </svg>
                 {{success}}
             </span>
         </template>
