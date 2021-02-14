@@ -1,7 +1,10 @@
 <template>
     <div class="wrapper" :class="{error,success}">
-        <input :value="value" class="input" type="text" :disabled="disabled" @change="$emit('change',$event)"
-               @focus="$emit('change',$event)" :placeholder="placeholder" :readonly="readonly">
+        <input :value="value" class="input" type="text" :disabled="disabled"
+               @input="$emit('update:value',$event.target.value)" @change="$emit('update:value',$event.target.value)"
+               @focus="$emit('update:modelValue',$event.target.value)"
+               @blur="$emit('update:modelValue',$event.target.value)"
+               :placeholder="placeholder" :readonly="readonly">
         <template v-if="error">
             <span class="error-message">
                 {{error}}
@@ -39,8 +42,14 @@
                 type: String
             }
         },
-        setup() {
-
+        setup(props, context) {
+            const inputVal = (e: KeyboardEvent) => {
+                context.emit("update:value", (e.target as HTMLInputElement).value);
+            };
+            const inputBlur = (e: FocusEvent) => {
+                context.emit("update:modelValue", (e.target as HTMLInputElement).value);
+            };
+            return {inputVal, inputBlur};
         }
     };
 </script>
@@ -62,11 +71,12 @@
         &.error {
             > input {
                 border-color: $error-color;
-                color:$error-color;
+                color: $error-color;
             }
         }
-        &.success{
-            > input{
+
+        &.success {
+            > input {
                 border-color: $success-color;
                 color: $success-color;
             }
@@ -74,7 +84,7 @@
 
         > .input {
             height: $height;
-            border: 2px solid $border-color;
+            border: 1px solid $border-color;
             padding: 0 8px;
             border-radius: 4px;
             font-size: inherit;

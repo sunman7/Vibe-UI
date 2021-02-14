@@ -4,7 +4,7 @@
             <div class="vibe-tabs-nav-item" v-for="(t,index) in titles" @click="select(t)"
                  :ref="el =>{if(t === selected) selectedItem =el}"
                  :key="index"
-                 :class="[t === selected? selected : ''] + [t === '' ? 'disabled' : '']">
+                 :class="[t === selected? selected : ''] + [t.disabled === '' ? 'disabled' : '']">
                 {{t}}
             </div>
             <div class="vibe-tabs-nav-indicator" ref="indicator"></div>

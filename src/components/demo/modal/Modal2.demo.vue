@@ -1,5 +1,5 @@
 <demo>
-    常规使用
+     Overlay 关闭
 </demo>
 <template>
     <div>
@@ -22,9 +22,6 @@
     import {
         ref
     } from "vue";
-    import {
-        openModal
-    } from "../../../lib/openModal";
 
     export default {
         components: {

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/demo/input/Input.disabled.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/demo/input/Input.error.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/demo/input/Input.normal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/demo/input/Input.readonly.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/demo/input/Input.success.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/demo/modal/Modal1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/modal/Modal1.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/demo/modal/Modal2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/modal/Modal2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/demo/tabs/Tabs1.Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/tabs/Tabs1.Demo.vue" afterDir="false" />
@@ -48,16 +51,16 @@
     <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\vue-project\vibe-ui\src\components\demo\tabs" />
-      <recent name="D:\vue-project\vibe-ui\src\components\demo\switch" />
-      <recent name="D:\vue-project\vibe-ui\src\components\demo\Modal" />
-      <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
-      <recent name="D:\vue-project\vibe-ui\src\components\demo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
       <recent name="D:\vue-project\vibe-ui\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vue-project\vibe-ui\src\components" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\input" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\tabs" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\switch" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\Modal" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -83,7 +86,10 @@
       <workItem from="1610698267836" duration="193000" />
       <workItem from="1612684097830" duration="13152000" />
       <workItem from="1612759350871" duration="17000" />
-      <workItem from="1612762303917" duration="1090000" />
+      <workItem from="1612762303917" duration="5029000" />
+      <workItem from="1613118304654" duration="1664000" />
+      <workItem from="1613188068083" duration="3017000" />
+      <workItem from="1613267144499" duration="2988000" />
     </task>
     <servers />
   </component>
@@ -91,10 +97,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="464" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609725426092">
+    <state x="464" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612773274293">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="464" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.914@0.0.1463.914" timestamp="1609725426092" />
+    <state x="464" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.914@0.0.1463.914" timestamp="1612773274293" />
     <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609727296771">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -160,10 +166,10 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610358702477" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1612711625740">
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1612775407370">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612711625740" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1610428304373" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1612775407370" />
   </component>
 </project>

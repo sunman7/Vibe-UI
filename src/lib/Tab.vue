@@ -1,5 +1,5 @@
 <template>
-    <div :class="disabled">
+    <div :disabled="disabled">
         <slot/>
     </div>
 </template>
@@ -12,10 +12,10 @@
             }
         },
         name: "Tab",
+        setup(props) {
+            console.log(props);
+        }
     };
 </script>
 <style lang="scss">
-    .disabled {
-        color:black;
-    }
 </style>

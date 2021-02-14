@@ -5,7 +5,7 @@
     <Tabs v-model:selected="selectedItem">
         <Tab title="Tabs1">one</Tab>
         <Tab title="Tabs2">two</Tab>
-        <Tab title="Tabs3" disabled>three</Tab>
+        <Tab title="Tabs3">three</Tab>
     </Tabs>
 </template>
 

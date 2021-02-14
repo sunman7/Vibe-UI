@@ -3,7 +3,6 @@
 </demo>
 <template>
     <div>
-
         <Button theme="text">Normal</Button>
         <Button theme="text" level="main">Main</Button>
         <Button theme="text" level="danger">Danger</Button>

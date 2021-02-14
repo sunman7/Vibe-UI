@@ -22,9 +22,6 @@
     import {
         ref
     } from "vue";
-    import {
-        openModal
-    } from "../../../lib/openModal";
 
     export default {
         components: {
