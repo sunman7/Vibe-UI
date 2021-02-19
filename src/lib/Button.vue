@@ -9,6 +9,7 @@
     import {computed} from "vue";
 
     export default {
+        name:"vibe-button",
         props: {
             theme: {
                 type: String,

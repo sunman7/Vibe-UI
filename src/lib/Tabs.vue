@@ -45,7 +45,7 @@
             });
             const defaults = context.slots.default();
             defaults.forEach((tag) => {
-                if (tag.type !== Tab) {
+                if (tag.type.name !== Tab.name) {
                     throw new Error("Tabs的子标签是Tab");
                 }
             });

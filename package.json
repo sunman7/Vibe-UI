@@ -1,10 +1,10 @@
 {
   "name": "vibe-ui",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "files": [
     "dist/lib/*"
   ],
-  "main": "dist/lib/vibe.js",
+  "main": "dist/lib/vibe-ui.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build"

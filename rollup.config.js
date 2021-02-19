@@ -11,7 +11,7 @@ export default {
             vue: "Vue"
         },
         name: "vibe-ui",
-        file: "dist/lib/vibe.js",
+        file: "dist/lib/vibe-ui.js",
         format: "umd",
         plugins: [terser()]
     },

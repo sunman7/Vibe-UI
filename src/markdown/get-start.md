@@ -2,16 +2,21 @@
 
 ## 使用 `vibe-ui`
 
-
 ```
-    import 'vibe-ui/dist/lib/vibe.css'
+    import 'vibe-ui/dist/lib/vibe-ui.css'
     import { createApp } from 'vue'
     import App from './App.vue'
-    import { vibeUI } from 'vibe-ui'
+    import { Button,Switch,Modal,Tabs,Tab,Input } from 'vibe-ui'
 
     createApp(App)
-      .use(vibeUI)
-      .mount('#app')
+        .component("Button",Button)
+        .component("Switch",Switch)
+        .component("Modal",Modal)
+        .component("Tabs",Tabs)
+        .component("Tab",Tab)
+        .component("Input",Input);
+    
+      
 ```
 ## Vue单文件组件中使用
 ```
