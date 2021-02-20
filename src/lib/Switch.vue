@@ -14,7 +14,6 @@
         setup(props, context) {
 
             const toggle = () => {
-                console.log(props.value);
                 context.emit("update:value", !props.value);
             };
             return {toggle};

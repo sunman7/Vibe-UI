@@ -8,7 +8,7 @@
                 <p class="actions">
 
                     <router-link to="/doc" class="start">开始使用</router-link>
-                    <a class="github" href="https://github.com">GITHUB</a>
+                    <a class="github" href="https://github.com/sunman7">GITHUB</a>
                 </p>
             </div>
         </div>
@@ -118,7 +118,6 @@
 
     .topnav-banner {
         background: linear-gradient(180deg, rgba(252, 248, 232, 1) 0%, rgba(252, 242, 218, 1) 27%, rgba(250, 236, 208, 1) 47%, rgba(240, 195, 142, 1) 100%);
-        clip-path: ellipse(80% 60% at 50% 40%);
         height: 50vh;
         @media(max-width:400px) {
             font-size: 12px;

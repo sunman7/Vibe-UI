@@ -5,13 +5,11 @@ export const openModal = (options) => {
     const div = document.createElement("div");
     document.body.appendChild(div);
     const close = () => {
-        console.log("1");
         app.unmount(div);
         div.remove();
     };
     const app = createApp({
         render() {
-
             return h(
                 // @ts-ignore
                 Modal,
