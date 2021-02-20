@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/openModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openModal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freak" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vibe-record" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -82,7 +79,7 @@
       <workItem from="1613267144499" duration="8422000" />
       <workItem from="1613440831285" duration="1140000" />
       <workItem from="1613731027643" duration="2663000" />
-      <workItem from="1613786397790" duration="3499000" />
+      <workItem from="1613786397790" duration="4614000" />
     </task>
     <servers />
   </component>
@@ -99,11 +96,11 @@
     </state>
     <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1613275372614" />
     <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.914@0.0.1463.914" timestamp="1609727296771" />
-    <state x="512" y="212" key="FileChooserDialogImpl" timestamp="1613731412937">
+    <state x="512" y="212" key="FileChooserDialogImpl" timestamp="1613795070006">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1613277791103" />
-    <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1613731412937" />
+    <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1613795070006" />
     <state width="1442" height="219" key="GridCell.Tab.0.bottom" timestamp="1610353004581">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
