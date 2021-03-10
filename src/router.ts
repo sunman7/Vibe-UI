@@ -11,6 +11,7 @@ import intro from "./markdown/intro.md";
 import getStart from "./markdown/get-start.md";
 import install from "./markdown/install.md";
 import InputDemo from "./components/InputDemo.vue";
+import CollapseDemo from "./components/CollapseDemo.vue";
 // @ts-ignore
 const md = str => h(Markdown, {content: str, key: str});
 const history = createWebHashHistory();
@@ -44,6 +45,9 @@ export const router = createRouter({
                 },
                 {
                     path: "tabs", component: TabsDemo
+                },
+                {
+                    path: "collapse", component: CollapseDemo
                 },]
         }
     ]

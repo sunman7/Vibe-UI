@@ -5,3 +5,4 @@ export {default as Tabs} from "./Tabs.vue";
 export {default as Tab} from "./Tab.vue";
 export {default as Input} from "./Input.vue";
 export {openModal as openModal} from "./openModal";
+export {default as Collapse} from "./Collapse.vue";

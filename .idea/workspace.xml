@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CollapseDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/demo/Collapse/Collapse.normal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Collapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/CollapseItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +42,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vibe-record" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
-      <recent name="D:\vue-project\vibe-ui\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\vue-project\vibe-ui\src\components" />
       <recent name="D:\vue-project\vibe-ui\src\components\demo\input" />
       <recent name="D:\vue-project\vibe-ui\src\components\demo\tabs" />
       <recent name="D:\vue-project\vibe-ui\src\components\demo\switch" />
       <recent name="D:\vue-project\vibe-ui\src\components\demo\Modal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vue-project\vibe-ui\src\assets" />
+      <recent name="D:\vue-project\vibe-ui\src\components\demo\button" />
+      <recent name="D:\vue-project\vibe-ui\src\components" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -79,7 +90,14 @@
       <workItem from="1613267144499" duration="8422000" />
       <workItem from="1613440831285" duration="1140000" />
       <workItem from="1613731027643" duration="2663000" />
-      <workItem from="1613786397790" duration="4614000" />
+      <workItem from="1613786397790" duration="8137000" />
+      <workItem from="1613874007059" duration="4880000" />
+      <workItem from="1614223717723" duration="4680000" />
+      <workItem from="1614257814975" duration="257000" />
+      <workItem from="1614308146547" duration="831000" />
+      <workItem from="1614405857798" duration="1782000" />
+      <workItem from="1615359683255" duration="1437000" />
+      <workItem from="1615372298924" duration="2409000" />
     </task>
     <servers />
   </component>
@@ -96,9 +114,11 @@
     </state>
     <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1613275372614" />
     <state x="462" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.914@0.0.1463.914" timestamp="1609727296771" />
-    <state x="512" y="212" key="FileChooserDialogImpl" timestamp="1613795070006">
-      <screen x="0" y="0" width="1463" height="914" />
+    <state x="448" y="186" key="FileChooserDialogImpl" timestamp="1615359896638">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="448" y="186" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1615359896638" />
+    <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914/-1920.167.1920.1080@0.0.1463.914" timestamp="1614408408850" />
     <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1613277791103" />
     <state x="512" y="212" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1613795070006" />
     <state width="1442" height="219" key="GridCell.Tab.0.bottom" timestamp="1610353004581">
@@ -117,6 +137,10 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state width="1442" height="219" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1610353004581" />
+    <state x="572" y="94" key="RollbackChangesDialog" timestamp="1614223960323">
+      <screen x="0" y="0" width="1463" height="914" />
+    </state>
+    <state x="572" y="94" key="RollbackChangesDialog/0.0.1463.914/-1920.167.1920.1080@0.0.1463.914" timestamp="1614223960323" />
     <state x="233" y="99" key="SettingsEditor" timestamp="1610180710240">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -149,17 +173,20 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="93" y="93" width="1277" height="728" key="dock-window-5/0.0.1463.914@0.0.1463.914" timestamp="1610354294872" />
-    <state x="400" y="172" width="662" height="570" key="find.popup" timestamp="1612706596209">
+    <state x="400" y="172" width="662" height="570" key="find.popup" timestamp="1614257880595">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
+    <state x="400" y="172" width="662" height="570" key="find.popup/0.0.1463.914/-1920.167.1920.1080@0.0.1463.914" timestamp="1614257880595" />
     <state x="400" y="172" width="662" height="570" key="find.popup/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612706596209" />
     <state x="389" y="209" key="run.anything.popup" timestamp="1610358702477">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610358702477" />
-    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1612775407370">
-      <screen x="0" y="0" width="1463" height="914" />
+    <state x="350" y="175" width="672" height="594" key="search.everywhere.popup" timestamp="1615373533380">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="350" y="175" width="672" height="594" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1615373533380" />
+    <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914/-1920.167.1920.1080@0.0.1463.914" timestamp="1614257870991" />
     <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612711625740" />
     <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1612775407370" />
   </component>

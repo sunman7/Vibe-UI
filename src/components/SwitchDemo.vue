@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div>、
         <CodeDemo :component="SwitchNormal"/>
         <CodeDemo :component="SwitchDisabled"/>
     </div>
@@ -30,9 +30,19 @@
 
 <style lang="scss" scoped>
     $border-color: #d9d9d9;
+    h1 {
+
+    }
+
+    .text {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
     .demo {
         border: 1px solid $border-color;
         margin: 16px 0 32px;
+
 
         > h2 {
             font-size: 20px;
