@@ -8,7 +8,7 @@
     export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
     $grey:#ddd;
     .collapse {
         border: 1px solid $grey;

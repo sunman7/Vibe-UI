@@ -12,6 +12,7 @@ import getStart from "./markdown/get-start.md";
 import install from "./markdown/install.md";
 import InputDemo from "./components/InputDemo.vue";
 import CollapseDemo from "./components/CollapseDemo.vue";
+import PopoverDemo from "./components/PopoverDemo.vue";
 // @ts-ignore
 const md = str => h(Markdown, {content: str, key: str});
 const history = createWebHashHistory();
@@ -48,7 +49,10 @@ export const router = createRouter({
                 },
                 {
                     path: "collapse", component: CollapseDemo
-                },]
+                },
+                {
+                    path: "popover", component: PopoverDemo
+                }]
         }
     ]
 });

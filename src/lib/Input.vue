@@ -104,6 +104,7 @@
         }
 
         .error-message {
+            padding: 8px;
             color: $error-color;
         }
 
@@ -112,6 +113,7 @@
         }
 
         .success-message {
+            padding: 2px 8px;
             color: $success-color;
         }
 
