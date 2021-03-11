@@ -71,7 +71,9 @@
         border: 1px solid $border-color;
         border-radius: $radius;
         box-shadow: 0 1px 0 fade_out(black, 0.95);
-        margin: 10px !important;
+
+
+
 
         &:hover, &:focus {
             color: $blue;

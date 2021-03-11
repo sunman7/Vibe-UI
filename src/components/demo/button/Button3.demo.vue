@@ -22,3 +22,8 @@
         }
     };
 </script>
+<style lang="scss" scoped>
+    Button{
+        margin: 10px;
+    }
+</style>

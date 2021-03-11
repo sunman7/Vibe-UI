@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PopoverDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopoverDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button3.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\web-front\WebStorm\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -88,7 +93,8 @@
       <workItem from="1614308146547" duration="831000" />
       <workItem from="1614405857798" duration="1782000" />
       <workItem from="1615359683255" duration="1437000" />
-      <workItem from="1615372298924" duration="7472000" />
+      <workItem from="1615372298924" duration="10248000" />
+      <workItem from="1615424074349" duration="9430000" />
     </task>
     <servers />
   </component>
@@ -136,10 +142,10 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="233" y="99" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1610180710240" />
-    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615379253126">
+    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615380673059">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1615379253126" />
+    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1615380673059" />
     <state x="93" y="93" width="1277" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1463.914@0.0.1463.914" timestamp="1610419318065" />
     <state x="388" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609830570171">
       <screen x="0" y="0" width="1463" height="914" />
@@ -174,10 +180,10 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="389" y="209" key="run.anything.popup/0.0.1463.914@0.0.1463.914" timestamp="1610358702477" />
-    <state x="352" y="177" width="672" height="594" key="search.everywhere.popup" timestamp="1615375753693">
+    <state x="353" y="178" width="672" height="594" key="search.everywhere.popup" timestamp="1615424580566">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="352" y="177" width="672" height="594" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1615375753693" />
+    <state x="353" y="178" width="672" height="594" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1615424580566" />
     <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914/-1920.167.1920.1080@0.0.1463.914" timestamp="1614257870991" />
     <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914/2560.0.1920.1080@0.0.1463.914" timestamp="1612711625740" />
     <state x="394" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1463.914@0.0.1463.914" timestamp="1612775407370" />
