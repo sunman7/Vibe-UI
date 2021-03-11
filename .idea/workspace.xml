@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/demo/popover/PopoverHoverDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/demo/popover/PopoverPositionDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PopoverDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopoverDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <workItem from="1614405857798" duration="1782000" />
       <workItem from="1615359683255" duration="1437000" />
       <workItem from="1615372298924" duration="10248000" />
-      <workItem from="1615424074349" duration="10763000" />
+      <workItem from="1615424074349" duration="11459000" />
     </task>
     <servers />
   </component>
@@ -138,10 +139,10 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="233" y="99" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1610180710240" />
-    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615380673059">
+    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615437331372">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1615380673059" />
+    <state x="81" y="81" width="1118" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1615437331372" />
     <state x="93" y="93" width="1277" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1463.914@0.0.1463.914" timestamp="1610419318065" />
     <state x="388" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609830570171">
       <screen x="0" y="0" width="1463" height="914" />
