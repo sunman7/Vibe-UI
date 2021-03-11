@@ -1,5 +1,5 @@
 <template>
-    <div class="popover" @click.stop="onClick" ref="popover">
+    <div class="popover"  ref="popover">
         <div class="content-wrapper" v-if="visible" ref="contentWrapper" :class="{[`position-${position}`]:true}">
             <slot name="content"></slot>
         </div>
@@ -11,12 +11,35 @@
 
 <script type="ts">
     export default {
+        mounted() {
+            if (this.trigger === "click") {
+                this.$refs.popover.addEventListener("click", this.onClick);
+            } else {
+                this.$refs.popover.addEventListener("mouseenter", this.open);
+                this.$refs.popover.addEventListener("mouseleave", this.close);
+            }
+        },
+        destroyed() {
+            if (this.trigger === "click") {
+                this.$refs.popover.removeEventListener("click", this.onclick);
+            } else {
+                this.$refs.popover.removeEventListener("mouseenter", this.open);
+                this.$refs.popover.removeEventListener("mouseleave", this.close);
+            }
+        },
         props: {
             position: {
                 type: String,
                 default: "top",
                 validator(value) {
                     return ["top", "left", "bottom", "right"].indexOf(value) >= 0;
+                }
+            },
+            trigger: {
+                type: String,
+                default: "click",
+                validator(value) {
+                    return ["click", "hover"].indexOf(value) >= 0;
                 }
             }
         },
@@ -60,7 +83,6 @@
                     return;
                 }
                 this.close();
-                console.log("关闭");
             },
             close() {
                 this.visible = false;
@@ -83,14 +105,9 @@
                     } else {
                         this.open();
                     }
-                } else {
-                    //点击的是上面的内容
-                    console.log("上面");
+
                 }
             }
-        },
-        mounted() {
-
         }
     };
 </script>
@@ -126,24 +143,32 @@
         &.position-top {
             transform: translateY(-100%);
             margin-top: -10px;
+
             &::before {
                 border-top-color: black;
+                border-bottom: none;
                 top: 100%;
             }
+
             &::after {
                 border-top-color: #fff;
+                border-bottom: none;
                 top: calc(100% - 1px);
             }
         }
 
         &.position-bottom {
             margin-top: 10px;
+
             &::before {
                 border-bottom-color: black;
+                border-top: none;
                 bottom: 100%;
             }
+
             &::after {
                 border-bottom-color: #fff;
+                border-top: none;
                 bottom: calc(100% - 1px);
             }
         }
@@ -151,29 +176,38 @@
         &.position-left {
             transform: translateX(-100%);
             margin-left: -10px;
-            &::before,&::after{
-                transform:translateY(-50%);
+
+            &::before, &::after {
+                transform: translateY(-50%);
+                border-right: none;
                 top: 50%;
             }
+
             &::before {
                 border-left-color: black;
                 left: 100%;
             }
+
             &::after {
                 border-left-color: #fff;
                 left: calc(100% - 1px);
             }
         }
+
         &.position-right {
             margin-left: 10px;
-            &::before,&::after{
-                transform:translateY(-50%);
+
+            &::before, &::after {
+                transform: translateY(-50%);
+                border-left: none;
                 top: 50%;
             }
+
             &::before {
                 border-right-color: black;
                 right: 100%;
             }
+
             &::after {
                 border-right-color: #fff;
                 right: calc(100% - 1px);

@@ -4,10 +4,6 @@
     <list default="true" id="c0c27a74-0f8b-4549-84e9-f2479f0f8b44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PopoverDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopoverDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/button/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/demo/button/Button3.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +90,7 @@
       <workItem from="1614405857798" duration="1782000" />
       <workItem from="1615359683255" duration="1437000" />
       <workItem from="1615372298924" duration="10248000" />
-      <workItem from="1615424074349" duration="9430000" />
+      <workItem from="1615424074349" duration="10763000" />
     </task>
     <servers />
   </component>

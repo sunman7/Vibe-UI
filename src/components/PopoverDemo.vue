@@ -1,12 +1,12 @@
 <template>
 <div class="asd">
-    <Popover position="top">
+    <Popover position="top" trigger="hover">
         <template v-slot:content>
             aoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasd
         </template>
         <VibeButton>点我</VibeButton>
     </Popover>
-    <Popover position="bottom">
+    <Popover position="bottom" trigger="click">
         <template v-slot:content>
             aoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasdaoisjdoiasd
         </template>
